@@ -1,0 +1,134 @@
+body{
+	text-align:center;
+	background: url('img/plytos.gif');
+
+	font: bold 4px arial;
+	padding: 0px; 
+	margin:60px;
+}
+
+#wraper{
+	width:780px;
+	margin:0 auto;
+	text-align:left;
+	
+}
+
+#head{
+	overflow: hidden;
+	width: 780px;
+	height: 145px;  
+	background: url("img/head.png") no-repeat top ;
+	position:absolute;
+	top: 30px;
+	width: 780px;
+}
+
+#content{
+	width:780px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+	background: #fff;
+	border: 0px solid green;
+	overflow:hidden;
+}
+
+#content tr{
+	margin: 0px;
+	padding: 0px;
+		border: 0px solid blue;
+}
+
+#content tr td{
+	margin: 0px;
+	padding: 0px;
+	border: 0px solid red;
+}
+
+#left{
+		vertical-align:top;
+	background: #28166f no-repeat top;
+	width: 150px;
+	
+}
+
+#right{
+	vertical-align:top;
+	background: #28166f; 
+	width: 150px;
+}
+
+#midle{
+	vertical-align:top;
+	width:480px;
+	
+}
+
+#foot{
+	width:780px;
+	margin:0 auto;
+	background: brown;
+}
+
+#menubar{
+	border: 0px solid rgb(255,0,0);
+	width:780px;
+	margin:0 auto;
+	overflow: hidden;
+	position:absolute;
+	top: 53px;
+	float:right;
+	z-index: 600;
+	background: transparent;
+}
+
+#langbar{
+	border: 0px solid rgb(255,0,0);
+	width:780px;
+	margin:0 auto;
+	overflow: hidden;
+	position:absolute;
+	top: 128px;
+	float:left;
+	z-index: 800;
+	background: transparent;
+	width:100px;
+}
+
+
+.icon{
+	position:relative;
+	top:10px;
+	left:12px;
+	height: 100px;
+	width:125px;
+	
+}
+.icontext{
+ color: #fff;
+ font:  12px arial;
+ text-align:center	
+}
+#logo{
+	border: 0px solid rgb(255,0,0);
+	height: 63px;
+	 width:167px;
+	position:relative;
+	background: url('img/logo.png');
+	z-index: 900; 
+}
+
+#foot{ 
+color: #28166f; 
+	text-align: center;
+	clear:both;
+	width: 780px;
+	height: 19px;
+	padding:0px; 
+    margin:0px;
+	margin: 0 auto;
+	background: url("img/foot.png") repeat-y top ;
+	_background-image:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='/cake/app/webroot/css/img/foot.png');
+}

@@ -1,0 +1,114 @@
+#title{
+	border: 1px solid rgb(0,0,0);
+	margin:0px;
+    padding:0px;
+	text-align: center;
+	background: url("img/sidetitle.png") repeat-x top ;
+
+}
+
+.bar{
+	padding-top:5px;
+	color: #28166f; 
+	width: 780px;
+	text-align: center;
+	font-size: 12px;
+	font-family: arial, serif;
+	font-weight: 900;
+}
+
+.heading {
+	font-family:lucida, "times new roman", serif; 
+	font-size:20px; 
+	text-align:right; 
+	color:#28166f; 
+	border:1px solid #ddd;
+}
+
+#panorama{
+    width:100%;
+	height: 222px;
+	margin:0px;
+    padding:0px;
+	border: 0px solid #000;
+	background: url("img/virbalai.jpg") repeat-x top ;
+
+	border-bottom: 2px dotted #aaa;
+	_width:100%;
+}
+
+.pane{
+	text-align: center;
+	padding:0px; 
+	margin-left: 8px; 
+	border: 1px solid #000; 
+	padding-top:8px;
+	padding-bottom:8px;
+	margin-bottom:15px;
+	width:124px;
+	background: #fff;
+}
+
+.blue{
+	color: #28166f; 
+	margin:0px;
+	font-size:12px; 
+	padding:0;
+	border: 0px solid #000;
+	width:100%;
+	
+}
+td{
+		color: #28166f; 	
+}
+
+img{
+	border: 0px;
+	margin:0px;
+    padding:0px;
+}
+
+
+div.img-shadow {
+  float:left;
+  background: url("img/shadowAlpha.png") no-repeat bottom right;
+  margin: 10px 0 0 10px;
+  margin: 10px 0 0 5px;
+  }
+
+div.img-shadow img {
+  display: block;
+  position: relative;
+  height:60px;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 4px;
+  }
+  div.sechr{
+	background: url(img/secbg.gif) repeat-x top left;
+	margin: 0px;
+	padding:0px;
+	padding-top:3px;
+	margin: 0px;
+	width: 100%;
+	height: 22px;
+	align: center;
+	color: rgb(200,55,55);
+	text-decoration:none;
+	border: 0px solid rgb(200,200,255);	
+}
+.quad{
+	width:150px;
+	height: 154px;
+	margin:0px;
+    padding:0px;
+	border: 0px solid #000;
+	background: url("img/kvadratas.png") repeat-y top ;
+}
+  
+.show{
+	width: 300px;
+	padding:10px;
+}
+  

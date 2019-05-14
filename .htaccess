@@ -1,0 +1,15 @@
+ErrorDocument 404 /
+Options -Indexes
+
+RewriteEngine On
+
+#modify the value below to match your setup. the rest should be OK
+#RewriteBase /~user/lamer4
+#RewriteBase /~user/jjj
+#RewriteBase /sitepliuz
+RewriteBase /~user/mopsai
+
+RewriteRule ^$                        index.php/  [L]
+RewriteCond %{REQUEST_FILENAME}       !-f
+RewriteCond %{REQUEST_FILENAME}       !-d
+RewriteRule (.*)                      index.php/$1  [QSA,L]

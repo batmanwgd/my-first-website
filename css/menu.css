@@ -1,0 +1,153 @@
+/**************** menu coding *****************/
+#menu {
+background: transparent;
+margin: 0;
+padding: 0;
+float: right;
+height: 200px;
+}
+
+#menu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+margin-right: 0px;
+height:20px;
+_width:1px;
+
+float: left;
+}
+
+#menu a, #menu h2{
+font: bold 11px arial, helvetica, sans-serif;
+display: block;
+border-width: 0px;
+border-style: solid;
+border-color: #ccc #888 #555 #bbb;
+margin: 0;
+height: 20px;
+padding: 0px;
+}
+
+#menu h2 {
+color: #fff;
+background: #000;
+text-transform: uppercase;
+}
+
+#menu a {
+color: #000;
+background: #e5e5e5;
+text-decoration: none;
+height: 20px;
+}
+
+#menu a:hover {
+color: #a00;
+background: #fff;
+}
+#menu div {
+color: #000;
+
+background: #efefef;
+text-decoration: none;
+height: 20px;
+}
+
+#menu div:hover {
+color: #a00;
+background: #fff;
+}
+
+
+#menu li {position: relative;
+	height: 20px;}
+
+#menu ul ul {
+position: absolute;
+
+z-index: 500;
+}
+
+#menu ul ul ul {
+position: absolute;
+top: 0;
+left: 100%;
+}
+
+div#menu ul ul,
+div#menu ul li:hover ul ul,
+div#menu ul ul li:hover ul ul
+{display: none;}
+
+div#menu ul li:hover ul,
+div#menu ul ul li:hover ul,
+div#menu ul ul ul li:hover ul
+{display: block;}
+
+/* phreakmenu css 
+---------------------------------*/
+
+ul.spcssmenu, ul.spcssmenu ul {
+	width: 100px;
+	height: 100px;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+ul.spcssmenu li {
+	list-style-type: none;
+	list-style-image: url(../img/pixel.gif);
+	list-style-position: outside;
+	width: 94px;
+	margin: -1px 0px 0px 0px;
+	padding: 3px 3px 3px 3px;
+	position: relative;
+	border: 1px solid #fff;
+	font: 12px verdana, arial, sans-serif;
+	background-color: #9b9b88;
+	float: right;
+}
+
+ul.spcssmenu li>ul {
+	display: none;
+	position: absolute;
+	top: 4px;
+	left: 100px;
+}
+
+li.sub {
+	background: url("../img/sub.gif") no-repeat right; 
+}
+
+ul.spcssmenu li:hover {
+	background: #600;
+}
+
+ul.spcssmenu li:hover>ul {
+	display: block;
+}
+
+ul.spcssmenu li a {
+	text-decoration: none;
+	display: block;
+	width: 94px;
+	font-weight: bold;
+}
+
+
+ul.spcssmenu li  a:link {
+	color: #fff;
+}
+
+ul.spcssmenu li  a:visited {
+	color: #fff;
+}
+
+ul.spcssmenu li  a:hover {
+	color: #fff;
+}
+	
+
+
